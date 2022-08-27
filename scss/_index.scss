@@ -1,0 +1,149 @@
+$colortext: black;
+$font: 'Roboto', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+//maps
+$colores:(
+    'uno': blue,
+    'dos': black,
+    'tres': red,
+    'cuatro': aqua,
+    'cinco': white,);
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior:smooth
+}
+
+html{
+    font-size: 62.5%;
+}
+
+nav{
+    background-color: rgb(12, 171, 163);
+    padding: 6px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+nav ul{
+    list-style: none;
+    display: inline-block;
+    nav ul li {
+        color: $colortext;
+        text-decoration: none;
+        font-family: $font;
+        font-size: 1.8rem;
+        font-weight: 400;
+        list-style: none;
+        display: inline-block;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        nav ul li a{
+            color: $colortext;
+            text-decoration: none;
+        }
+
+        }
+
+} 
+    h1,h2,h3,h4{
+        font-family: $font;
+    }
+    
+    h1{
+        color: $colortext;
+        font-size: 4rem;
+    }
+    h2{
+        color: $colortext;
+        font-size: 3rem;
+    }
+    h3{
+        color: $colortext;
+        font-size: 2.5rem;
+    }
+    
+    h4{
+        color: $colortext;
+        font-size: 2.5rem;
+    }
+    
+    article p{
+        font-family: $font;
+        font-size: 1.8rem;
+        line-height: 2rem;
+        font-weight: 280;
+    }
+
+.text-grey{
+    color: grey;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-italic{
+    font-style: italic;
+}
+
+.bg-green{
+    background-color: rgb(123, 171, 108);
+}
+
+.imagen-inicio{
+    height: 44rem;
+    width: 100%;
+}
+
+.pie{
+    padding: 3px;
+}
+
+.novedades{
+    cursor: pointer;
+    background-color: black;
+    margin-top: auto;
+    height: auto;
+}
+
+.mlbinicio{
+    width: 30rem;
+    height: 16rem;
+}
+
+.nflinicio{
+    width: 30rem;
+    height: 16rem;
+}
+
+.nbainicio{
+    width: 30rem;
+    height: 16rem;
+}
+
+.logos{
+    width: 10rem;
+    height: 08rem;
+}
+
+#main{
+    grid-area: main;
+    display: center;
+}
+.mdsec{
+    width: 120px;
+    height:120px;
+}
+

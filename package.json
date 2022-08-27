@@ -1,0 +1,24 @@
+{
+  "name": "proyecto-gorras",
+  "version": "1.0.0",
+  "description": "venta de gorras de distintas modalidades de deportes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+		"sass:watch": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adolhernandez/Primerrepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adolhernandez/Primerrepo/issues"
+  },
+  "homepage": "https://github.com/adolhernandez/Primerrepo#readme",
+  "dependencies": {
+    "sass": "^1.54.0"
+  }
+}

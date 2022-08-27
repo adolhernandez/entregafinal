@@ -1,0 +1,27 @@
+SEO
+
+Keywords + description ( dentro de cada html)
+
+Index=
+    <meta name="descriptcion" content="Web de ventas de gorras profesionales en Argentina">
+    <meta name="keywords" content="gorras, mlb, nba, argentina">
+
+Nuestra historia=
+    <meta name="description" content="quienes somos, nuestra mision y vision de la tienda">
+    <meta name="keywords" content="quienes somos, mision, vision, nuestra historia">
+
+
+Nuestros productos=
+    <meta name="description" content=" productos a la venta, gorras de la nba y mlb">
+    <meta name="keywords" content=" mlb, nba, productos">
+
+Promociones=
+    <meta name="description" content="promociones de la tienda, ofertas">
+    <meta name="keywords" content="promociones">
+
+Contacto=
+    <meta name="description" content="formulario de contactos y localizacion de nuestra tienda">
+    <meta name="keywords" content=" formulario, nombre, apellido, direccion, mapa, redes sociales">
+
+Titles ( dentro del head de cada html)
+

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heavy Caps</title>
+    <link rel="shortcut icon" href="../imag/favicon.png">
+    <meta name="description" content="formulario de contactos y localizacion de nuestra tienda">
+    <meta name="keywords" content=" formulario, nombre, apellido, direccion, mapa, redes sociales">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>formulario de contacto para ventas</title>
+</head>
+<body>
+  <div class="contenedor">
+    <nav class="navbar navbar-expand-lg header-nav botonera" id="nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../imag/gorra.png" alt="logo de heavy caps" class="logo rotate">
+          </a>
+          <h2>Heavy Caps</h2>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="scale">
+                <a class="nav-link" href="./quienes-somos.html">Quienes Somos</a>
+              </li>
+              <li class="scale">
+                <a class="nav-link" href="./nuestros-productos.html">Nuestros Productos</a>
+              </li>
+              <li class="scale">
+                <a class="nav-link" href="./promociones.html">Promociones</a>
+              </li>
+              <li class="scale">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    <header>
+        <img src="../imag/inicioimag.jpg" alt="">
+
+    </header>
+
+    <main>
+        <h1>Contacto</h1>
+        <section>
+            <div class="row justify-content-center align-items-center h-100">
+              <div class="col-12 col-lg-9 col-xl-7">
+                <div class="card-registration">
+                  <div class="card-body p-4 p-md-5">
+                    <h2 class="mb-4 pb-2 pb-md-0 mb-md-5 text-center">Formulario</h2>
+                    <form>
+        
+                      <div class="row">
+                        <div class="col-md-6 mb-4">
+        
+                          <div class="form-outline">
+                            <input type="text" id="firstName" class="form-control form-control-lg" />
+                            <label class="form-label" for="firstName">Nombre</label>
+                          </div>
+        
+                        </div>
+                        <div class="col-md-6 mb-4">
+        
+                          <div class="form-outline">
+                            <input type="text" id="lastName" class="form-control form-control-lg" />
+                            <label class="form-label" for="lastName">Apellido</label>
+                          </div>
+        
+                        </div>
+                      </div>
+        
+                      <div class="row">
+                        <div class="col-md-6 mb-4 d-flex align-items-center">
+        
+                          <div class="form-outline datepicker w-100">
+                            <input type="text" class="form-control form-control-lg" id="birthdayDate" />
+                            <label for="birthdayDate" class="form-label">Direccion</label>
+                          </div>
+        
+                        </div>
+                        <div class="col-md-6 mb-4">
+        
+                          <h6 class="mb-2 pb-1">Que modelos buscas</h6>
+        
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
+                              value="option1" checked />
+                            <label class="form-check-label" for="femaleGender">MLB</label>
+                          </div>
+        
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
+                              value="option2" />
+                            <label class="form-check-label" for="maleGender">NBA</label>
+                          </div>
+        
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="otherGender"
+                              value="option3" />
+                            <label class="form-check-label" for="otherGender">Otros</label>
+                          </div>
+        
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6 mb-4 pb-2">
+        
+                          <div class="form-outline">
+                            <input type="email" id="emailAddress" class="form-control form-control-lg" />
+                            <label class="form-label" for="emailAddress">Email</label>
+                          </div>
+        
+                        </div>
+                        <div class="col-md-6 mb-4 pb-2">
+        
+                          <div class="form-outline">
+                            <input type="tel" id="phoneNumber" class="form-control form-control-lg" />
+                            <label class="form-label" for="phoneNumber">Número Telefónico</label>
+                          </div>
+        
+                        </div>
+                      </div>
+        
+                      <div class="row">
+                        <div class="col-12">
+        
+                          <select class="select form-control-lg">
+                            <option value="1">Metodos de pago</option>
+                            <option value="2">Envios</option>
+                            <option value="3">Promociones</option>
+                          </select>
+                          <label class="form-label select-label">Elige una Opción</label>
+        
+                        </div>
+                      </div>
+        
+                      <div class="mt-4 pt-2">
+                        <input class="btn btn-primary btn-lg" type="submit" value="Enviar" />
+                      </div>
+        
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+      </main>
+        <!--Google map-->
+<div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 300px">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.01671328064!2d-58.38376444919249!3d-34.603738880363544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1657989623463!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      style="border:0" allowfullscreen></iframe>
+  </div>
+  
+    <footer class="footer" id="foot">
+        <div class="contenedor2">
+        <div id="copy" class="copy">
+            <div>
+            &copy;Copyrigth <strong><span>Adolfo Rebellon</span></strong>. Todos los derechos reservados.
+            </div>
+            <div>
+            Diseñado por <strong><span>Adolfo Rebellon</span></strong>
+            </div>
+        </div>
+        <div id="redes">
+        <a href="https://twitter.com/" target="_blank">
+            <img src="../imag/twitter.png" alt="logo de twitter" class="redes">
+        </a>
+        <a href="https://instagram.com" target="_black">
+            <img src="../imag/instagram.png" alt="logo de instagram" class="redes">
+        </a>
+        </div>
+    </div>  
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>

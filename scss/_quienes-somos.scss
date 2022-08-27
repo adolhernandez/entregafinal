@@ -1,0 +1,48 @@
+$colortext: black;
+
+body{
+    background-image: url(../imag/imga.webp);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+#historia{
+    grid-area: historia;
+}
+
+#mision{
+    grid-area: mision;
+}
+
+#vision{
+    grid-area: vision;
+}
+
+.contenedorsomos{
+    display: grid;
+    grid-template-columns: 100;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "historia"
+    "mision"
+    "vision";
+    justify-items: center;
+}
+
+.novedades__articulo{
+    width: 90%;
+    height: auto;
+    padding: 50px;
+    margin: 30px;
+    border: solid $colortext 3px;
+    overflow: auto;
+}
+
+.bg-green{
+    background-color: map-get($map:$colores, $key:'cinco' );
+}
+
+

@@ -1,0 +1,12 @@
+$font: 'system-ui';
+
+.letra{
+    @extend .main;
+    font-family: $font;
+}
+
+@mixin display-f ($font){
+    font-family: $font;
+    color: blue;
+}
+

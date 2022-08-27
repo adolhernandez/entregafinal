@@ -1,0 +1,410 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+nav {
+  background-color: rgb(12, 171, 163);
+  padding: 6px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-block;
+}
+nav ul nav ul li {
+  color: black;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  list-style: none;
+  display: inline-block;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+nav ul nav ul li nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: black;
+  font-size: 4rem;
+}
+
+h2 {
+  color: black;
+  font-size: 3rem;
+}
+
+h3 {
+  color: black;
+  font-size: 2.5rem;
+}
+
+h4 {
+  color: black;
+  font-size: 2.5rem;
+}
+
+article p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  font-weight: 280;
+}
+
+.text-grey {
+  color: grey;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.bg-green {
+  background-color: rgb(123, 171, 108);
+}
+
+.imagen-inicio {
+  height: 44rem;
+  width: 100%;
+}
+
+.pie {
+  padding: 3px;
+}
+
+.novedades {
+  cursor: pointer;
+  background-color: black;
+  margin-top: auto;
+  height: auto;
+}
+
+.mlbinicio {
+  width: 30rem;
+  height: 16rem;
+}
+
+.nflinicio {
+  width: 30rem;
+  height: 16rem;
+}
+
+.nbainicio {
+  width: 30rem;
+  height: 16rem;
+}
+
+.logos {
+  width: 10rem;
+  height: 8rem;
+}
+
+#main {
+  grid-area: main;
+}
+
+.mdsec {
+  width: 160px;
+  height: 160px;
+}
+
+body {
+  background-image: url(../imag/imga.webp);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+#historia {
+  grid-area: historia;
+}
+
+#mision {
+  grid-area: mision;
+}
+
+#vision {
+  grid-area: vision;
+}
+
+.contenedorsomos {
+  display: grid;
+  grid-template-columns: 100;
+  grid-template-rows: auto;
+  grid-template-areas: "historia" "mision" "vision";
+  justify-items: center;
+}
+
+.novedades__articulo {
+  width: 90%;
+  height: auto;
+  padding: 50px;
+  margin: 30px;
+  border: solid black 3px;
+  overflow: auto;
+}
+
+.bg-green {
+  background-color: white;
+}
+
+.letra {
+  font-family: "system-ui";
+}
+
+.productos {
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px 0;
+  font-family: "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 20px 0;
+}
+
+.galeria {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  justify-content: space-around;
+}
+
+.main .nba, .letra .nba {
+  margin-left: 20px;
+  margin-top: 150px;
+  font-family: "system-ui";
+  color: blue;
+}
+.main .mlb, .letra .mlb {
+  margin-left: 20px;
+  margin-top: 30px;
+  font-family: "system-ui";
+  color: blue;
+}
+.main .card, .letra .card {
+  border: solid;
+  cursor: pointer;
+}
+
+.tamanos {
+  width: 12rem;
+  height: 16rem;
+}
+
+#footer {
+  grid-area: footer;
+}
+
+.footer {
+  margin-top: 130px;
+  width: 100%;
+}
+
+.copy {
+  font-size: large;
+}
+
+#copy {
+  grid-area: copy;
+}
+
+.redes {
+  height: 3rem;
+  width: 4rem;
+  padding-right: 10px;
+  text-align: right;
+}
+
+#redes {
+  grid-area: redes;
+}
+
+.tabla {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: large;
+}
+.tabla .table {
+  border: 2px solid black;
+}
+
+@keyframes animateone {
+  20% {
+    background-color: blue;
+  }
+  40% {
+    background-color: orange;
+  }
+  40% {
+    background-color: red;
+  }
+}
+.animate {
+  animation-name: animateone;
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+  animation-delay: 0;
+}
+
+.rotate:hover {
+  transform: rotate(360deg);
+  cursor: pointer;
+  transition: 2s;
+}
+
+.logo {
+  height: 6rem;
+  width: 6rem;
+}
+
+.scale:hover {
+  transform: scale(0.7, 0.8);
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+#nav {
+  grid-area: nav;
+}
+
+.formulario {
+  width: 70%;
+}
+
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+fieldset {
+  border: thick solid #000;
+}
+
+legend {
+  color: #000;
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.justify-content {
+  justify-content: flex-end;
+}
+
+.fieldset {
+  width: 100%;
+}
+
+.border {
+  border-radius: 6px;
+}
+
+.buttonhola, .border {
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  color: black;
+  transition: all 4s;
+  margin-top: 120px;
+  text-align: right;
+}
+
+.buttonhola:hover, .border:hover {
+  background: linear-gradient(to top, black);
+  box-shadow: 1px 5px 12px 1px blue;
+  cursor: pointer;
+}
+
+#header {
+  grid-area: header;
+}
+
+.contenedor2 {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: auto;
+  grid-template-areas: "copy redes";
+}
+
+@media (min-width: 1025px) {
+  .contenedor {
+    grid-template-columns: 25px 75px;
+    grid-template-rows: auto;
+    grid-template-areas: "nav nav" "header header" "main main" "footer footer";
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .contenedor {
+    grid-template-columns: 25px 75px;
+    grid-template-rows: auto;
+    grid-template-areas: "nav nav" "header header" "main main" "footer footer";
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .contenedor {
+    grid-template-columns: 25px 75px;
+    grid-template-rows: auto;
+    grid-template-areas: "nav nav" "header header" "main main" "footer footer";
+  }
+  .tamanos {
+    margin-bottom: 6rem;
+  }
+}
+@media (min-width: 480px) {
+  .contenedor {
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: "nav" "header" "main" "footer";
+  }
+}
+@media (max-width: 480px) {
+  .tamanos {
+    margin-bottom: 6rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

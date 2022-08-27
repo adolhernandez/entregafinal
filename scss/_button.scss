@@ -1,0 +1,25 @@
+.border{
+    @extend .buttonhola;
+    border-radius: 6px;
+}
+
+.buttonhola{
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: black;
+    transition: all 4s;
+    margin-top: 120px;
+    text-align: right;
+}
+
+.buttonhola:hover{
+background: linear-gradient(to top, black);
+box-shadow: 1px 5px 12px 1px blue;
+cursor: pointer;
+}
+
+
+

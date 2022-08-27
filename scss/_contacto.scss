@@ -1,0 +1,69 @@
+@keyframes animateone{
+    20%{background-color: blue;}
+    40%{background-color: orange;}
+    40%{background-color: red;}   
+}
+
+.animate{
+    animation-name: animateone;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-delay: 0;
+}
+
+.rotate:hover{
+    transform: rotate(360deg);
+    cursor: pointer;
+    transition: 2s;
+}
+
+.logo{
+    height: 6rem;
+    width: 6rem;
+}
+
+.scale:hover{
+    transform: scale(0.7,0.8);
+    cursor: pointer;
+    transition: transform   0.5s;
+}
+
+#nav{
+    grid-area: nav;
+}
+
+.formulario{
+    width: 70%;
+    }
+    .map-container{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+      }
+      .map-container iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+      }
+
+      fieldset {
+        border: thick solid #000;
+    }
+    legend{
+        color: #000;
+        font-size: 1.5rem;
+        padding: 5px;
+    }
+
+    .justify-content{
+        justify-content: flex-end;
+    
+    }
+
+    .fieldset{
+        width: 100%;
+    }
+    
